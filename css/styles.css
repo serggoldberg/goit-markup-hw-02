@@ -1,0 +1,35 @@
+.logo {
+columns: #000000;
+}
+.logo-blue {
+color: #2196F3;
+}
+.nav .link {
+    color: #212121;
+}
+.nav .link:hover,
+.nav .link:focus {
+    color: #2196F3;
+}
+.list {
+    list-style: none;
+}
+.section-title {
+    color: #212121;
+}
+.hero > .hero-title {
+color: #FFFFFF;
+}
+.button { 
+    color: #FFFFFF;
+}
+body {
+   background-color: #F5F5F5;
+   color: #757575;
+}
+
+/* цвет h1 #FFFFFF */
+/* цвет h2, h3 #212121 */
+/* цвет параграфов #757575 */
+/* цвет акцента #2196F3 */
+/* background: #F5F5F5 */
