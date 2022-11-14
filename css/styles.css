@@ -147,6 +147,7 @@ font-family: "Raleway", sans-serif;
 /* footer */
 
 .footer {
+    font-family: Roboto, sans-serif;
     background: #2F303A;
 }
 .footer-logo {
@@ -156,6 +157,9 @@ font-family: "Raleway", sans-serif;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
+}
+.address {
+    font-family: Roboto, sans-serif;
 }
 .footer-map-link {
     font-size: 14px;
