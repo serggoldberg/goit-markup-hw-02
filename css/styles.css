@@ -10,7 +10,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
     background-color: #FFFFFF;
 }
 
@@ -148,7 +148,7 @@ font-family: "Raleway", sans-serif;
 
 .footer {
     font-family: Roboto, sans-serif;
-    background: #2F303A;
+    background-color: #2F303A;
 }
 .footer-logo {
     font-family: "Raleway", sans-serif;
@@ -176,7 +176,20 @@ font-family: "Raleway", sans-serif;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
-
+.servises-list-title {
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.servises-text {
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
 /* цвет h1 #FFFFFF */
 /* цвет h2, h3 #212121 */
 /* цвет параграфов #757575 */
