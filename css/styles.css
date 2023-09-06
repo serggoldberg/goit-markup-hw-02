@@ -136,6 +136,7 @@ h3 {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-title {
   font-size: 20px;
@@ -160,6 +161,7 @@ h3 {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .portfolio-title {
   font-size: 20px;
