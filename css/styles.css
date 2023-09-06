@@ -3,7 +3,6 @@
   --c-primary-light: #ffffff;
   --c-background: #2e2f42;
   --c-hover: #404bbf;
-  --c-highlight: #4d5ae5;
 }
 
 /* BODY */
@@ -25,21 +24,23 @@ h3 {
 /* LOGO */
 .logo {
   font-family: 'Raleway', sans-serif;
+  color: #4d5ae5;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo .accent {
+  font-family: 'Raleway', sans-serif;
   color: var(--c-background);
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-}
-.logo .accent {
-  font-family: 'Raleway', sans-serif;
-  color: var(--c-highlight);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* NAVIGATION */
@@ -56,11 +57,14 @@ h3 {
   text-decoration: underline;
 }
 
+.add-link {
+  font-style: normal;
+}
 .address-link {
   color: #434455;
   text-decoration: none;
   font-weight: 400;
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .address-link:hover,
@@ -86,11 +90,11 @@ h3 {
 }
 .hero-button {
   color: var(--c-primary-light);
-  background-color: var(--c-highlight);
-  border: none;
-  border-radius: 4px;
+  background-color: #4d5ae5;
   text-align: center;
   letter-spacing: 0.04em;
+  font-weight: 500;
+  line-height: 1.5;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -100,18 +104,7 @@ h3 {
 }
 
 /* two */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 .advantages-title {
   color: var(--c-background);
   font-size: 20px;
@@ -130,10 +123,13 @@ h3 {
 .team-section {
   background-color: #f4f4fd;
 }
+.portfolio-section .card-one {
+  background-color: #ffffff;
+}
 .hero-team-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.14;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -149,7 +145,7 @@ h3 {
 .team-text {
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
   background-color: var(--c-primary-light);
 }
@@ -158,7 +154,7 @@ h3 {
 .hero-portfolio-title {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.14;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -174,7 +170,7 @@ h3 {
 .portfolio-text {
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   text-align: center;
   background-color: var(--c-primary-light);
 }
@@ -182,27 +178,29 @@ h3 {
 /* footer */
 .logo-footer {
   font-family: 'Raleway', sans-serif;
-  color: var(--c-primary-light);
+  color: #4d5ae5;
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .logo-footer .accent-footer {
   font-family: 'Raleway', sans-serif;
-  color: var(--c-highlight);
+  color: #f4f4fd;
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .footer-section {
   background-color: var(--c-background);
 }
 .footer-text {
-  color: var(--c-primary-light);
+  color: #f4f4fd;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
